@@ -32,8 +32,10 @@ if __name__ == "__main__":
                                                                                                     Main V1.0
                                                                                                                 """)
     print("GPTTerm. Type 'exit' to quit. - (c) Nabeel Akhtar 2024")
+    subprocess.run(['say', "Online and Ready!"])
     while True:
         user_input = input("You: ")
+        
         if user_input.lower() in ['exit', 'quit']:
             print("Exiting...Have a nice day!")
             break
