@@ -17,7 +17,7 @@ def chat_with_gpt(prompt):
     return response.choices[0].message.content
 
 if __name__ == "__main__":
-       print(r"""\
+    print(r"""\
                     ___           ___           ___           ___           ___           ___                   
       ___          /  /\         /  /\         /  /\         /  /\         /  /\         /  /\          ___     
      /__/\        /  /::\       /  /::\       /  /::|       /  /::\       /  /:/        /  /::\        /__/\    
